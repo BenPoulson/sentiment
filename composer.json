@@ -1,0 +1,25 @@
+{
+	"name": "benpoulson/sentiment",
+	"description": "A PHP Textual Sentiment Analysis Package",
+	"authors": [
+		{
+			"name": "Ben Poulson",
+			"email": "ben@netikan.com"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"BenPoulson\\Sentiment\\": "src"
+		}
+	},
+	"require": {
+		"php": ">=5.4.0",
+		"camspiers/statistical-classifier": "^0.8.0",
+        	"maximebf/CacheCache": "^1.0",
+        	"heyupdate/emoji": "^0.2.2"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^4.8"
+	},
+	"minimum-stability": "dev-master"
+}
